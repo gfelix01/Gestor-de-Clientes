@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\bin\Debug\Sistema asistencia.exe.config
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\bin\Debug\Sistema asistencia.exe
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\bin\Debug\Sistema asistencia.pdb
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema asistencia.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema asistencia.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema_asistencia.Properties.Resources.resources
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema asistencia.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema asistencia.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema asistencia.exe
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema asistencia.pdb
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema_asistencia.Presentacion.Menuprincipal.resources
+C:\Users\PC\source\repos\Sistema asistencia\Sistema asistencia\obj\Debug\Sistema_asistencia.Presentacion.Personal.resources
