@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Sistema_asistencia.Logica;
+using Sistema_asistencia.Datos;
 
 namespace Sistema_asistencia.Presentacion
 {
@@ -30,6 +32,11 @@ namespace Sistema_asistencia.Presentacion
         private void button6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

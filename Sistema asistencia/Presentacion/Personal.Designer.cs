@@ -30,7 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -49,7 +49,7 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.panelRegistros = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -60,12 +60,12 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnSiguiente = new System.Windows.Forms.Button();
+            this.btnAntrior = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel4.SuspendLayout();
+            this.panelRegistros.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -74,7 +74,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnAgregar);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.textBox1);
@@ -97,19 +97,20 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button1
+            // btnAgregar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.button1.BackgroundImage = global::Sistema_asistencia.Properties.Resources.signo_de_mas1;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(860, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(58, 79);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.btnAgregar.BackgroundImage = global::Sistema_asistencia.Properties.Resources.signo_de_mas1;
+            this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAgregar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnAgregar.FlatAppearance.BorderSize = 0;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.Location = new System.Drawing.Point(860, 0);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(58, 79);
+            this.btnAgregar.TabIndex = 3;
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // pictureBox1
             // 
@@ -276,34 +277,34 @@
             this.panel7.Size = new System.Drawing.Size(371, 1);
             this.panel7.TabIndex = 8;
             // 
-            // panel4
+            // panelRegistros
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.panel4.Controls.Add(this.flowLayoutPanel1);
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.button5);
-            this.panel4.Controls.Add(this.comboBox1);
-            this.panel4.Controls.Add(this.textBox5);
-            this.panel4.Controls.Add(this.panel9);
-            this.panel4.Controls.Add(this.panel8);
-            this.panel4.Controls.Add(this.panel7);
-            this.panel4.Controls.Add(this.textBox8);
-            this.panel4.Controls.Add(this.panel6);
-            this.panel4.Controls.Add(this.textBox6);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Controls.Add(this.textBox2);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel4.Location = new System.Drawing.Point(3, 78);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(694, 363);
-            this.panel4.TabIndex = 3;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            this.panelRegistros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panelRegistros.Controls.Add(this.flowLayoutPanel1);
+            this.panelRegistros.Controls.Add(this.button2);
+            this.panelRegistros.Controls.Add(this.button5);
+            this.panelRegistros.Controls.Add(this.comboBox1);
+            this.panelRegistros.Controls.Add(this.textBox5);
+            this.panelRegistros.Controls.Add(this.panel9);
+            this.panelRegistros.Controls.Add(this.panel8);
+            this.panelRegistros.Controls.Add(this.panel7);
+            this.panelRegistros.Controls.Add(this.textBox8);
+            this.panelRegistros.Controls.Add(this.panel6);
+            this.panelRegistros.Controls.Add(this.textBox6);
+            this.panelRegistros.Controls.Add(this.panel5);
+            this.panelRegistros.Controls.Add(this.textBox2);
+            this.panelRegistros.Controls.Add(this.label5);
+            this.panelRegistros.Controls.Add(this.label4);
+            this.panelRegistros.Controls.Add(this.label3);
+            this.panelRegistros.Controls.Add(this.label2);
+            this.panelRegistros.Controls.Add(this.label1);
+            this.panelRegistros.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelRegistros.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panelRegistros.Location = new System.Drawing.Point(3, 78);
+            this.panelRegistros.Name = "panelRegistros";
+            this.panelRegistros.Size = new System.Drawing.Size(912, 363);
+            this.panelRegistros.TabIndex = 3;
+            this.panelRegistros.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // flowLayoutPanel1
             // 
@@ -411,36 +412,38 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.flowLayoutPanel2.Controls.Add(this.button7);
-            this.flowLayoutPanel2.Controls.Add(this.button9);
+            this.flowLayoutPanel2.Controls.Add(this.btnSiguiente);
+            this.flowLayoutPanel2.Controls.Add(this.btnAntrior);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 447);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(531, 60);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(273, 60);
             this.flowLayoutPanel2.TabIndex = 0;
             // 
-            // button7
+            // btnSiguiente
             // 
-            this.button7.Location = new System.Drawing.Point(3, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(119, 23);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "PAGINA SIGUIENTE";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnSiguiente.Location = new System.Drawing.Point(3, 3);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(119, 23);
+            this.btnSiguiente.TabIndex = 2;
+            this.btnSiguiente.Text = "PAGINA SIGUIENTE";
+            this.btnSiguiente.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btnAntrior
             // 
-            this.button9.Location = new System.Drawing.Point(128, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(116, 23);
-            this.button9.TabIndex = 3;
-            this.button9.Text = "PAGINA ANTERIOR";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnAntrior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnAntrior.Location = new System.Drawing.Point(128, 3);
+            this.btnAntrior.Name = "btnAntrior";
+            this.btnAntrior.Size = new System.Drawing.Size(116, 23);
+            this.btnAntrior.TabIndex = 3;
+            this.btnAntrior.Text = "PAGINA ANTERIOR";
+            this.btnAntrior.UseVisualStyleBackColor = false;
             // 
             // Personal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panelRegistros);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel2);
@@ -452,8 +455,8 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.panelRegistros.ResumeLayout(false);
+            this.panelRegistros.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -481,12 +484,12 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panelRegistros;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button button3;
@@ -494,7 +497,8 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.Button btnAntrior;
+       
     }
 }
